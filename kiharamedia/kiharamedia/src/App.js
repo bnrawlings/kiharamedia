@@ -14,7 +14,7 @@ function App() {
       <ScrollToTop />
       <Navbar />
       <Routes>
-        <Route path='/' exact component={Home} />
+        <Route path='/' exact component={ Home } />
         <Route path='/services' component={Services} />
         <Route path='/contact' component={Contact} />
       </Routes>

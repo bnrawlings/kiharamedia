@@ -9,10 +9,10 @@ export const homeObjOne = {
     description:
       'We help business owners increase their revenue. Our team of unique specialist can help you achieve your business goals.',
     buttonLabel: 'Get Started',
-    // imgStart: '',
-    // // img: require('../../images/svg-1.svg'),
-    // alt: 'Credit Card',
-    // start: ''
+    imgStart: '',
+    img: require('../../images/_KiharaMedia.png'),
+    alt: 'Credit Card',
+    start: ''
   };
   
   export const homeObjTwo = {
@@ -26,10 +26,10 @@ export const homeObjOne = {
     description:
       "Once you've joined, our team of specialist will reach out to you and get you set up in minutes.",
     buttonLabel: 'Learn More',
-    // imgStart: '',
-    // // img: require('../../images/svg-2.svg'),
-    // alt: 'Vault',
-    // start: ''
+    imgStart: '',
+    img: require('../../images/_KiharaMedia.png'),
+    alt: 'Vault',
+    start: ''
   };
   
   export const homeObjThree = {
@@ -44,10 +44,10 @@ export const homeObjOne = {
     description:
       "Their team is wonderful! I can't believe I didn't start working with them earlier.",
     buttonLabel: 'View Case Study',
-    // imgStart: 'start',
-    // // img: require('../../images/profile.jpg'),
-    // alt: 'Vault',
-    // start: 'true'
+    imgStart: 'start',
+    img: require('../../images/_KiharaMedia.png'),
+    alt: 'Vault',
+    start: 'true'
   };
   
   export const homeObjFour = {
@@ -61,8 +61,8 @@ export const homeObjOne = {
     description:
       'You will never have to worry about your information getting leaked. Our team of security experts will ensure your records are kept safe.',
     buttonLabel: 'Sign Up Now',
-    // imgStart: 'start',
-    // // img: require('../../images/svg-3.svg'),
-    // alt: 'Vault',
-    // start: 'true'
+    imgStart: 'start',
+    img: require('../../images/_KiharaMedia.png'),
+    alt: 'Vault',
+    start: 'true'
   };

@@ -60,7 +60,7 @@ function Navbar() {
                 </NavLinks>
               </NavItem>
               <NavItem>
-               
+               About
               </NavItem>
               <NavItemBtn>
                 {button ? (

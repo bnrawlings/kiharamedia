@@ -9,7 +9,7 @@ export const homeObjOne = {
       'Get access to our exclusive diamond king package. Limited quantity available.',
     buttonLabel: 'Contact',
     imgStart: '',
-    img: require('../../images/ Logo1.png'),
+    img: require('../../images/KiharaMediaCoverArt.png'),
     alt: 'Credit Card'
   };
   

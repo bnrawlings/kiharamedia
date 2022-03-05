@@ -1,7 +1,7 @@
 import React from 'react';
 import { homeObjOne, homeObjTwo, homeObjThree, homeObjFour } from './Data';
 import { InfoSection, Pricing } from '../../components';
-import { Intro } from '../Intro Page/Intro'
+import Intro  from '../IntroPage/Intro'
 
 function Home() {
   return (

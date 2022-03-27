@@ -14,6 +14,8 @@ import {
   NavLinks,
   NavBtnLink
 } from './Navbar.elements';
+import logotransperant from '../../images/logotransperant.png';
+
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -43,7 +45,7 @@ function Navbar() {
           <NavbarContainer>
             <NavLogo to='/' onClick={closeMobileMenu}>
               <NavIcon />
-              KIHARAMEDIA
+              <img src={logotransperant}></img>
             </NavLogo>
             <MobileIcon onClick={handleClick}>
               {click ? <FaTimes /> : <FaBars />}

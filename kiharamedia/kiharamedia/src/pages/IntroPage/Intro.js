@@ -1,16 +1,19 @@
 import React from 'react';
-import { Player } from 'video-react';
-import{ KiharaMediaWebVideo.mp4 } from "../../../public/videos/KiharaMediaWebVideo.mp4"
+// import { Player } from 'video-react';
+import  KiharaMediaWebVideo  from "../../videos/KiharaMediaWebVideo.mp4"
 
 // import { homeObjOne } from './Data';
 // import { InfoSection} from '../../components';
 
 function Intro() {
+ 
+ 
   return (
     <>
-    <Player 
-    playsInline
-    src= { KiharaMediaWebVideo } />
+    <video width="100%" controls autoPlay={true} loop muted playsInline >
+                <source src={ KiharaMediaWebVideo } type="video/mp4"/>
+                
+                </video>
     </>
   )
 }

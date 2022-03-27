@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { FaMagento } from 'react-icons/fa';
+import { Logo1 } from '../../images/ Logo1.png'
 import { Link } from 'react-router-dom';
 import { Container } from '../../globalStyles';
 
@@ -32,8 +33,11 @@ export const NavLogo = styled(Link)`
   align-items: center;
 `;
 
-export const NavIcon = styled(FaMagento)`
-  margin-right: 0.5rem;
+export const NavIcon = styled.img`
+  margin-right: -0.15rem;
+  margin-bottom: 2rem;
+  width: "100";
+  lenght:"100";
 `;
 
 export const MobileIcon = styled.div`
